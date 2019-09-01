@@ -11,6 +11,7 @@ RUN yum install -y \
         tar \
         gzip \
         sudo \
+        git \
         oracle-release-el7 && \
     yum-config-manager --enable ol7_oracle_instantclient && \
     yum install -y \

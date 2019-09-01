@@ -36,7 +36,8 @@
 		"python.pythonPath": "/usr/bin/python3",
 		"python.linting.pylintEnabled": true,
 		"python.linting.pylintPath": "/usr/local/bin/pylint",
-		"python.linting.enabled": true
+		"python.linting.enabled": true,
+		"git.ignoreLegacyWarning": true
 	},
 
     // Installs any dependencies if "requirements.txt" exists in workspace root.
