@@ -46,11 +46,12 @@ The devcontainer installs the VS Code extension for Python and configure *pylint
     ```json
     "appPort": [ 5000 ]
     ```
-1. Open the project directory in VS Code. It should detect the devcontainer and ask whether to reload the folder from within the container.
-    ![Reopen in Container](docs/assets/img/reopen-in-container.png)
-    
-    or run the command *Remote Containers: Reopen Folder in Container*
-    
+1. Open the project directory in VS Code. It should detect the devcontainer and ask whether to reload the folder from within the container.<br>
+    ![Reopen in Container](docs/assets/img/reopen-in-container.png)<br>
+    <br>
+    or<br> 
+    <br>
+    Run the command *Remote Containers: Reopen Folder in Container*<br>
     ![Reopen in Container](docs/assets/img/command-reopen-in-container.png)
 
 ### Modifying the Devcontainer
