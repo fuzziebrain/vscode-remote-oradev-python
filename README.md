@@ -68,7 +68,7 @@ A debug configuration has been created. See [`launch.json`](.vscode/launch.json)
 
 ### Connecting to the Oracle Database
 
-Developers are encouraged to store database credentials safely in encrypted Oracle Wallets, as oppose to storing them in plaintext either within the Python script or as environment variables. Follow the [*Oracle Database Connection with Oracle Wallet*](docs/oracle-database-connection-wtih-oracle-wallet.md).
+Developers are encouraged to store database credentials safely in encrypted Oracle Wallets, as oppose to storing them in plaintext either within the Python script or as environment variables. Follow the [*Oracle Database Connection with Oracle Wallet*](docs/oracle-database-connection-wtih-oracle-wallet.md) guide.
 
 ## Credits
 
