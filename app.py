@@ -1,10 +1,11 @@
 import cx_Oracle
 import os
 
-DB_HOST = os.environ["DB_CONTAINER_NAME"]
+DB_HOST = os.environ["DB_HOST"]
 DB_PORT = os.environ["DB_PORT"]
+DB_SERVICE_NAME = os.environ["DB_SERVICE_NAME"]
 
-CONNECT_STRING = DB_HOST + ":" + DB_PORT + "/XEPDB1"
+CONNECT_STRING = DB_HOST + ":" + DB_PORT + "/" + DB_SERVICE_NAME
 
 ## Open a connection pool:
 pool = cx_Oracle.SessionPool(dsn=CONNECT_STRING, externalauth=True, 

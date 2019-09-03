@@ -13,8 +13,9 @@
             "console": "integratedTerminal",
             "env": { 
                 "TNS_ADMIN": "${cwd}",
-                "DB_CONTAINER_NAME": "axer",
-                "DB_PORT": "1521"
+                "DB_HOST": "axer",
+                "DB_PORT": "1521",
+                "DB_SERVICE_NAME": "XEPDB1"
             }
         }
     ]

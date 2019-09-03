@@ -81,12 +81,13 @@ This guide assumes the following:
 
 When executing the Python code, set the `TNS_ADMIN` environment variable to the directory where the `sqlnet.ora` file is located. It is important to note that when running the code within the devcontainer, the `PROJECT_ROOT` is mounted and the current working directory is set to typically a path like `/workspace/vscode-remote-oradev-python`. The leaf of the workspace path follows the name of the running devcontainer name.
 
-When debugging code, add the following attributes to the [`launch.json`](../.vscode/launch.json) file, and update `DB_CONTAINER_NAME` and `DB_PORT` accordingly:
+When debugging code, add the following attributes to the [`launch.json`](../.vscode/launch.json) file, and update `DB_HOST` (set to the `DB_CONTAINER_NAME` when working with a database container), `DB_PORT` and `DB_SERVICE_NAME` accordingly:
 
 ```json
 "env": { 
     "TNS_ADMIN": "${cwd}",
-    "DB_CONTAINER_NAME": "axer",
-    "DB_PORT": "1521"
+    "DB_HOST": "axer",
+    "DB_PORT": "1521",
+    "DB_SERVICE_NAME": "XEPDB1"
 }
 ```
