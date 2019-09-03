@@ -21,13 +21,12 @@
 		// Uncomment the next line to use a non-root user. See https://aka.ms/vscode-remote/containers/non-root-user.
         "-u", "vscode",
         
-        // Uncomment the next line to attach the devcontainer to a specific Docker network.
-		// "--network", "oracle_network"
+        // Modify the next line to attach the devcontainer to a specific Docker network.
+		"--network", "axer_network"
 	],
 
 	// Uncomment the next line if you want to publish any ports.
     // "appPort": [],
-	// "appPort": [ 5000 ],
 	
 	// Uncomment the next line if you want to add in default container specific settings.json values
 	// "settings":  { "workbench.colorTheme": "Quiet Light" },
