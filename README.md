@@ -24,9 +24,9 @@ The starter kit runs a Docker container with the following components for Python
 * Microsoft's [Python extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 * [pylint](https://www.pylint.org/)
 
-Place any additional Python libraries required by the project in the [requirements.txt](requirements.txt) file. **Do not** include *cx_Oracle* as it is already included in the Docker build. Packages should be available on the [Python Package Index](https://pypi.org/).
+Place any additional Python libraries required by the project in the [`requirements.txt`](requirements.txt) file. **Do not** include *cx_Oracle* as it is already included in the Docker build. Packages should be available on the [Python Package Index](https://pypi.org/).
 
-The devcontainer installs the VS Code extension for Python and configure *pylint* as the linter. Add any additional extensions required in the `extensions` attribute in the [devcontainer.json](.devcontainer/devcontainer.json) file. For example, this adds the *[Language PL/SQL](https://marketplace.visualstudio.com/items?itemName=xyz.plsql-language)* extension:
+The devcontainer installs the VS Code extension for Python and configure *pylint* as the linter. Add any additional extensions required in the `extensions` attribute in the [`devcontainer.json`](.devcontainer/devcontainer.json) file. For example, this adds the [*Language PL/SQL*](https://marketplace.visualstudio.com/items?itemName=xyz.plsql-language) extension:
 
 ```json
 "extensions": [ "ms-python.python", "xyz.plsql-language" ]
@@ -38,7 +38,7 @@ The devcontainer installs the VS Code extension for Python and configure *pylint
     ```bash
     $ git clone https://github.com/fuzziebrain/vscode-remote-oradev-python.git
     ```
-1. Modify the Docker network to attach to, in the [devcontainer.json](.devcontainer/devcontainer.json). For example, the following parameter attaches the devcontainer to the *axer_network* typically used with the *docker-apex-stack*:
+1. Modify the Docker network to attach to, in the [`devcontainer.json`](.devcontainer/devcontainer.json). For example, the following parameter attaches the devcontainer to the *axer_network* typically used with the *docker-apex-stack*:
     ```json
     "--network", "axer_network"
     ```
@@ -64,11 +64,11 @@ Customise the Docker container if necessary. To rebuild the container, run the c
 
 ### Debugging
 
-A debug configuration has been created. See `[launch.json](.vscode/launch.json)`.
+A debug configuration has been created. See [`launch.json`](.vscode/launch.json).
 
 ### Connecting to the Oracle Database
 
-Developers are encouraged to store database credentials safely in encrypted Oracle Wallets, as oppose to storing them in plaintext either within the Python script or as environment variables. Follow the *[Oracle Database Connection with Oracle Wallet](docs/oracle-database-connection-wtih-oracle-wallet.md]*.
+Developers are encouraged to store database credentials safely in encrypted Oracle Wallets, as oppose to storing them in plaintext either within the Python script or as environment variables. Follow the [*Oracle Database Connection with Oracle Wallet*](docs/oracle-database-connection-wtih-oracle-wallet.md).
 
 ## Credits
 
