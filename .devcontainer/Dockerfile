@@ -30,6 +30,7 @@ RUN yum install -y \
     python3 -m pip install \
         pylint \
         cx_Oracle \
+        oci \
         --upgrade
 
 USER ${USERNAME}
