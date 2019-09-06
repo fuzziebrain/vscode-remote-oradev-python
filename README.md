@@ -70,6 +70,10 @@ A debug configuration has been created. See [`launch.json`](.vscode/launch.json)
 
 Developers are encouraged to store database credentials safely in encrypted Oracle Wallets, as oppose to storing them in plaintext either within the Python script or as environment variables. Follow the [*Oracle Database Connection with Oracle Wallet*](docs/oracle-database-connection-with-oracle-wallet.md) guide.
 
+### Support for Oracle Cloud Infrastructure
+
+See [*Support for Oracle Cloud Infrasturcture Guide*](docs/support-for-oci.md).
+
 ## Credits
 
 The beauty of [Open Source](https://opensource.org/) is that we can learn and build on top of previous knowledge shared by others. I wish to thank the following projects that have guided the creation of this starter kit:
