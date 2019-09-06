@@ -72,7 +72,7 @@ Developers are encouraged to store database credentials safely in encrypted Orac
 
 ### Support for Oracle Cloud Infrastructure
 
-See [support-for-oci.md](docs/support-for-oci.md).
+See [*Support for Oracle Cloud Infrasturcture Guide*](docs/support-for-oci.md).
 
 ## Credits
 
