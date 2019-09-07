@@ -29,8 +29,6 @@ RUN yum install -y \
     chmod 0440 /etc/sudoers.d/$USERNAME && \
     python3 -m pip install \
         pylint \
-        cx_Oracle \
-        oci \
         --upgrade
 
 USER ${USERNAME}

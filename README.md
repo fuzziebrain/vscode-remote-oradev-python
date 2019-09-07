@@ -20,6 +20,7 @@ The starter kit runs a Docker container with the following components for Python
 * Oracle SQL*Plus
 * Python 3.x
 * [cx_Oracle](https://oracle.github.io/python-cx_Oracle/)
+* [Oracle Cloud Infrastructure](https://cloud.oracle.com) (OCI) [Python SDK](https://oracle-cloud-infrastructure-python-sdk.readthedocs.io)
 * Git
 * Microsoft's [Python extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 * [pylint](https://www.pylint.org/)

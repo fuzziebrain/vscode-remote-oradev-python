@@ -1,1 +1,3 @@
-# Place any additional Python libraries required that can be found on the [Python Package Index](https://pypi.org/)
+cx_oracle
+oci
+# Place any additional Python libraries required that can be found on the [Python Package Index](https://pypi.org/) below this line.
