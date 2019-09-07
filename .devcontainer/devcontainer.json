@@ -43,7 +43,7 @@
 	},
 
     // Installs any dependencies if "requirements.txt" exists in workspace root.
-    "postCreateCommand": "if [[ -f requirements.txt ]]; then python3 -m pip install -r requirements.txt; fi;",
+    "postCreateCommand": "if [[ -f requirements.txt ]]; then sudo python3 -m pip install -r requirements.txt; fi;",
 
 	// Add the IDs of any extensions you want installed in the array below.
 	"extensions": [ "ms-python.python" ]
